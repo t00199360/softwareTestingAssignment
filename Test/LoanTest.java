@@ -82,4 +82,11 @@ public class LoanTest
         //System.out.println(loan6.getTotalPayment());
     }
 
+    @Test         (expected=IllegalArgumentException.class) //test case 4
+    public void testLoan11()
+    {
+        Loan loan7 = new Loan(750000,67);
+        assertEquals(10101010.01,loan7.getTotalPayment(),0.01);
+    }
+
 }
