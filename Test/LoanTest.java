@@ -8,7 +8,7 @@ import java.util.concurrent.TimeoutException;
 
 public class LoanTest
 {
-
+    //the loan class needed an extra } at the end to eliminate an error.
     //when ran with coverage it misses two lines but its just an empty section after the data members
 
     @Rule
