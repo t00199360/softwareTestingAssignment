@@ -63,9 +63,7 @@ public class Loan {
     public double getMonthlyPayment()
     {
         double monthlyPayment;
-        monthlyPayment = (loanAmount * monthlyInterestRate)
-                / (1 - Math.pow(1 / (1 + monthlyInterestRate),
-                numberOfPayments));
+        monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 / (1 + monthlyInterestRate), numberOfPayments));
         return monthlyPayment;
     }
 

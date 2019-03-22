@@ -17,6 +17,14 @@ public class LoanTest
     Loan loan1 = new Loan(550,2);
 
                                                 //all SOUT code is debug and should be ignored
+
+    @Test
+    public void testNullConstructor()               //constructor test (is this not redundant as you cannot take out a loan for nothing at no time period?)
+    {
+        Loan loan = new Loan();
+        assertEquals(0,loan.getAmount(), 0.01);
+        assertEquals(0,loan.getPeriod());
+    }
     @Test
     public void testLoan1()     //tests the getAmount code
     {
@@ -74,7 +82,7 @@ public class LoanTest
         assertEquals(6079.73,loan5.getTotalPayment(),0.01);
         //System.out.println(loan5.getTotalPayment());
     }
-    @Test       (expected=IllegalArgumentException.class)
+    @Test       (expected=IllegalArgumentException.class)       //error expected and dealt with
     public void testLoan10()
     {
         Loan loan6 = new Loan(120000,2);
@@ -85,7 +93,7 @@ public class LoanTest
     @Test         (expected=IllegalArgumentException.class) //test case 4
     public void testLoan11()
     {
-        Loan loan7 = new Loan(750000,67);
+        Loan loan7 = new Loan(6750000,7);
         assertEquals(10101010.01,loan7.getTotalPayment(),0.01);
     }
 

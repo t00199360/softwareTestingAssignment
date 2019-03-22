@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a67b8d-a9ea-4fa6-ac23-030498c38f57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_nodep_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/LoanTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/LoanTestCaseNegative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/mockCustTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/LoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/LoanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/softwareTestingAssignment1/Loan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/softwareTestingAssignment1/Loan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/softwareTestingAssignment1/LoanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/softwareTestingAssignment1/LoanTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/softwareTestingAssignment1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/softwareTestingAssignment1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +22,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/softwareTestingAssignment$CustomerTest.ic" NAME="CustomerTest Coverage Results" MODIFIED="1553197700587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/softwareTestingAssignment$LoanTest.ic" NAME="LoanTest Coverage Results" MODIFIED="1553259535606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/softwareTestingAssignment$LoanTestCaseNegative.ic" NAME="LoanTestCaseNegative Coverage Results" MODIFIED="1553259748170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/softwareTestingAssignment$LoanTestCase.ic" NAME="LoanTestCase Coverage Results" MODIFIED="1553255184477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/softwareTestingAssignment$CustomerTest.ic" NAME="CustomerTest Coverage Results" MODIFIED="1553259483081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/softwareTestingAssignment$LoanTestCase_pTests.ic" NAME="LoanTestCase$pTests Coverage Results" MODIFIED="1553259626094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/softwareTestingAssignment$mockCustTest.ic" NAME="mockCustTest Coverage Results" MODIFIED="1553259825579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="48" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\t00199360\Desktop" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="446330672">
@@ -47,17 +65,99 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1736860960">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1910" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1910" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/LoanTest.java">
+        <entry file="file://$PROJECT_DIR$/Test/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="442">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/LoanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/LoanTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/LoanTestCaseNegative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/mockCustTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -65,23 +165,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#191#192#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/CustomerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +181,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,21 +191,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/LoanTest.java" />
+        <option value="$PROJECT_DIR$/src/Loan.java" />
         <option value="$PROJECT_DIR$/Test/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/Test/mockCustTest.java" />
+        <option value="$PROJECT_DIR$/Test/LoanTest.java" />
+        <option value="$PROJECT_DIR$/Test/LoanTestCase.java" />
+        <option value="$PROJECT_DIR$/Test/LoanTestCaseNegative.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,35 +228,34 @@
             <path>
               <item name="softwareTestingAssignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingAssignment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="softwareTestingAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softwareTestingAssignment" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553198761236" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553260057622" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -174,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest">
+  <component name="RunManager" selected="JUnit.mockCustTest">
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softwareTestingAssignment1" />
       <option name="PACKAGE_NAME" value="" />
@@ -183,36 +283,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.testCustomer2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softwareTestingAssignment1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testCustomer2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="LoanTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.testCustomer3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanTestCase$pTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softwareTestingAssignment1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testCustomer3" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="LoanTestCase$pTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanTestCaseNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softwareTestingAssignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoanTestCaseNegative" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mockCustTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softwareTestingAssignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mockCustTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CustomerTest.testCustomer2" />
-      <item itemvalue="JUnit.CustomerTest.testCustomer3" />
       <item itemvalue="JUnit.CustomerTest" />
+      <item itemvalue="JUnit.mockCustTest" />
+      <item itemvalue="JUnit.LoanTest" />
+      <item itemvalue="JUnit.LoanTestCaseNegative" />
+      <item itemvalue="JUnit.LoanTestCase$pTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.mockCustTest" />
+        <item itemvalue="JUnit.LoanTestCaseNegative" />
+        <item itemvalue="JUnit.LoanTestCase$pTests" />
+        <item itemvalue="JUnit.LoanTest" />
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.CustomerTest.testCustomer3" />
-        <item itemvalue="JUnit.CustomerTest.testCustomer2" />
       </list>
     </recent_temporary>
   </component>
@@ -226,76 +342,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553192591644</updated>
+      <workItem from="1553253654092" duration="5706000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest_testCustomer2 - 2019.03.21 at 19h 39m 38s.xml">
-      <configuration name="CustomerTest.testCustomer2" configurationId="JUnit" />
+    <history-entry file="LoanTest - 2019.03.22 at 12h 05m 06s.xml">
+      <configuration name="LoanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_testCustomer3 - 2019.03.21 at 19h 47m 30s.xml">
-      <configuration name="CustomerTest.testCustomer3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest_testCustomer3 - 2019.03.21 at 19h 47m 49s.xml">
-      <configuration name="CustomerTest.testCustomer3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest_testCustomer3 - 2019.03.21 at 19h 48m 15s.xml">
-      <configuration name="CustomerTest.testCustomer3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.03.21 at 19h 49m 32s.xml">
+    <history-entry file="CustomerTest - 2019.03.22 at 12h 39m 53s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoanTestCaseNegative - 2019.03.22 at 12h 54m 09s.xml">
+      <configuration name="LoanTestCaseNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanTestCaseNegative - 2019.03.22 at 12h 55m 16s.xml">
+      <configuration name="LoanTestCaseNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanTestCaseNegative - 2019.03.22 at 12h 55m 54s.xml">
+      <configuration name="LoanTestCaseNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.03.22 at 12h 58m 05s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanTest - 2019.03.22 at 12h 58m 57s.xml">
+      <configuration name="LoanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanTestCase$pTests - 2019.03.22 at 13h 00m 28s.xml">
+      <configuration name="LoanTestCase$pTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanTestCaseNegative - 2019.03.22 at 13h 02m 30s.xml">
+      <configuration name="LoanTestCaseNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="mockCustTest - 2019.03.22 at 13h 03m 48s.xml">
+      <configuration name="mockCustTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.006807867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18599562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3294509" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3382688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921347" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32932165" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/LoanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#191#192#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -303,10 +434,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/LoanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/LoanTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/LoanTestCaseNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/mockCustTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -342,6 +517,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 3.6 interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -353,7 +529,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -378,6 +554,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>cglib-nodep-2.2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

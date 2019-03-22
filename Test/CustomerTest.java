@@ -31,9 +31,4 @@ public class CustomerTest
         assertEquals("Name: Jeff Payments: 1.0",customer1.toString());
     }
 
-    @Test
-    public void testCustomer4()
-    {
-
-    }
 }
